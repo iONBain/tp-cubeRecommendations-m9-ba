@@ -1,0 +1,88 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.bodyStyle {
+  /* height: 100vh; */
+  background-repeat: repeat;
+  background-position: center;
+  background-size: cover;
+  /* background-color: black; */
+  color: whitesmoke;
+  height: 100vh !important;
+  /* width: 100vw; */
+  margin: 0px;
+  padding: 0;
+}
+.btns {
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 8px;
+  border: 0px;
+  margin: 30px 5px;
+  color: brown;
+  background-color: rgba(250, 246, 8, 0.91);
+  transition: all 0.3s ease-in;
+}
+.btns:hover {
+  background-color: rgb(255, 147, 23);
+}
+.list {
+  /* padding: 10px; */
+  /* width: 50vw; */
+  /* margin: 10px; */
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.listItem {
+  background-color: rgba(171, 182, 179, 0.376);
+  border-radius: 35px;
+  padding: 20px;
+  margin: 10px;
+  transition: all 0.5s ease;
+  height: 310px;
+  cursor: pointer;
+}
+.listItem:hover {
+  background-color: rgba(171, 182, 179, 0.575);
+  transform: scale(0.9);
+}
+.desc {
+  width: 150px;
+  text-align: justify;
+}
+h1 {
+  padding: 10px;
+  color: rgba(250, 246, 8, 0.91);
+}
+h3 {
+  padding: 5px;
+  margin-bottom: 10px;
+  color: rgba(250, 246, 8, 0.91);
+}
+p {
+  margin-top: 10px;
+}
+.background-element {
+  background-image: url("https://github.com/iONBain/tp-cube-recommendation-ba/blob/main/cubesImg/renato-ramos-puma-xnl0PFy3euU-unsplash.jpg?raw=true");
+  background-size: cover;
+  background-position: center; /* or 50% 50% */
+  background-repeat: no-repeat;
+
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
